@@ -1,0 +1,14 @@
+{
+  "name": "Kyohei OS",
+  "short_name": "Kyohei OS",
+  "description": "自分の情報と機能をひとつにまとめるパーソナルホーム画面",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090a",
+  "theme_color": "#08090a",
+  "lang": "ja",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
