@@ -1,4 +1,4 @@
-const CACHE = 'kyohei-os-v0.1'
+const CACHE = 'makkyo-os-v1'
 const BASE_URL = new URL('./', self.location.href).pathname
 const APP_SHELL = [BASE_URL, `${BASE_URL}manifest.webmanifest`, `${BASE_URL}icons/icon.svg`]
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP_SHELL))))
